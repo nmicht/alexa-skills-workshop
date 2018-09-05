@@ -23,9 +23,30 @@ El handler es tu punto de inicio, es decir, el archivo y el método a ejecutar
 ARN es (amazon resource name), identificador único de lambda y es lo que necesitas obtener  
 
 6. Crear el Alexa Kit
+Alexa skill kit -> create skill  
+custom - ingles  
+tempate = fact skill  
 
+7. Asignar tu ARN
+en el endpoint (panel del lado izquierdo) tiene seleccionada lambda y en el default region, pegar el ARN  
+save endpoints
 
+8. invocation y test
+poner el nombre que va a dar el usuario para la invocacion  
+build model  
+despues del build click en test  
+encender el test y comenzar a hacer pruebas
+
+9. Agregar mas idiomas
+Dentro de la pestaña build, hay un dropdown para elegir idiomas
+Se pueden agregar todos los perfiles de idiomas que se desean.
 
 
 Notas:  
-Se tiene una ventana de 8seg para la interacción  
+- Se tiene una ventana de 8seg para la interacción  
+- Formato de una instruccion
+wake word = alexa  
+launch = ask, open  
+invocation name = restaurant finder  
+utterance = for breakfast  
+- Documentacion de invocaciones https://developer.amazon.com/docs/custom-skills/understanding-how-users-invoke-custom-skills.html
