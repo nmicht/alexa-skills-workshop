@@ -1,6 +1,7 @@
 # alexa-skills-workshop
 Workshop to create Alexa Skills
 
+## Pasos para crear un skill
 1. Crear cuentas de developer y aws
 developer.amazon.com  
 aws.amazon.com  
@@ -37,12 +38,35 @@ build model
 despues del build click en test  
 encender el test y comenzar a hacer pruebas
 
-9. Agregar mas idiomas
-Dentro de la pestaña build, hay un dropdown para elegir idiomas
-Se pueden agregar todos los perfiles de idiomas que se desean.
+9. Agregar mas idiomas  
+Dentro de la pestaña build, hay un dropdown para elegir idiomas  
+Se pueden agregar todos los perfiles de idiomas que se desean.  
 
+10. Crea slots  
+Los slots son variables que puedes usar en tus intents, ejemplo, planeta y entonces el usuario dira el nombre de un planeta, de este modo, no repites intents.  
+En el intent, el slot se pone entre llaves  
 
-Notas:  
+11. Crea Slot Types  
+Define la lista de tus variables con sus posibles valores, sinonimos e inclusive IDs  
+No olvides asignar el slot type a tu slot
+
+## Formato de una instruccion
+wake word = alexa  
+launch = ask, open  
+invocation name = restaurant finder  
+utterance = for breakfast  
+
+## ASK SDK
+
+canHandle   
+Es un if para evaluar antes del handler  
+se recomienda mucho usar el errorHandler  
+
+handle    
+la logica de codigo  
+handlerInput para armar la respuesta con el responseBuilder  
+
+## Notas:  
 - Se tiene una ventana de 8seg para la interacción  
 - Formato de una instruccion
 wake word = alexa  
@@ -50,3 +74,23 @@ launch = ask, open
 invocation name = restaurant finder  
 utterance = for breakfast  
 - Documentacion de invocaciones https://developer.amazon.com/docs/custom-skills/understanding-how-users-invoke-custom-skills.html
+- Si se va a dejar la sesion abierta, siempre terminar con una pregunta
+- El simulador no tiene el timer de 8 segundos, por lo que el contexto es el mismo que hace 10 mins. Para forzar hay que cerrar el test
+
+## Mas material
+
+@memodoring (memo)  
+@softwarechido (carlos)  
+
+forums.developer.amazon.com  
+alexa.uservoice.com
+
+twitch.tv/amazonalexa
+
+alexa developer preview <- google it
+
+alexa aws credits <- google it /  100dlls al mes
+
+developer.amazon.com/blogs/alexa
+
+alexa accont linkin de sebasien sormacq <-- google it
