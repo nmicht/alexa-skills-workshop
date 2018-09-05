@@ -66,6 +66,21 @@ handle
 la logica de codigo  
 handlerInput para armar la respuesta con el responseBuilder  
 
+## Consejos para la creación de skills
+`utterance - situation - response - prompt`
+
+- siempre considerar el contexto (situation)
+- evaluar a detalle la pregunta que se le hace al usuario dado de que de eso depende la pregunta
+- hay que crear un guion
+- dilo en voz alta
+- dale la libertad al usuario de hablar como el quiera
+- mapa de enunciados (utterance map) para ver todas las frases que puede decir el usuario
+- consistencia, variabilidad y aprendizaje
+- cosas triviales como hola, hoy es lunes, es mas facil y lindo
+- tu skill siempre disponible
+- ponerle formas a las situaciones y categorizarlas
+- pruebas, pruebas y muchas pruebas
+
 ## Notas:  
 - Se tiene una ventana de 8seg para la interacción  
 - Formato de una instruccion
