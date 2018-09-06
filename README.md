@@ -2,9 +2,9 @@
 Workshop to create Alexa Skills
 
 ## Pasos para crear un skill
-1. Crear cuentas de developer y aws
-developer.amazon.com  
-aws.amazon.com  
+1. Crear cuentas de developer y aws  
+https://developer.amazon.com/  
+https://aws.amazon.com/    
 La creación de AWS requiere una llamada y tu tarjeta de credito.  
 
 2. Crea tu lambda
@@ -23,13 +23,14 @@ El handler es tu punto de inicio, es decir, el archivo y el método a ejecutar
 5. Obten el ARN
 ARN es (amazon resource name), identificador único de lambda y es lo que necesitas obtener  
 
-6. Crear el Alexa Kit
+6. Crear el Alexa Skill
+https://developer.amazon.com/alexa-skills-kit  
 Alexa skill kit -> create skill  
 custom - ingles  
 tempate = fact skill  
 
 7. Asignar tu ARN
-en el endpoint (panel del lado izquierdo) tiene seleccionada lambda y en el default region, pegar el ARN  
+En el endpoint (panel del lado izquierdo) tiene seleccionada lambda y en el default region, pegar el ARN  
 save endpoints
 
 8. invocation y test
