@@ -190,7 +190,7 @@ No olvides asignar el slot type a tu slot
 - Foros https://forums.developer.amazon.com  
 - Feature Requests https://alexa.uservoice.com
 - Tranmisiones en vivo https://www.twitch.tv/amazonalexa
-- Programa para ganar un Alexa https://developer.amazon.com/es/alexa-skills-kit/alexa-developer-preview-program
+- Programa para ganar un Alexa https://developer.amazon.com/es-mx/alexa-skills-kit/alexa-developer-preview-program
 - Créditos en AWS si tienes un skill publicado https://developer.amazon.com/alexa-skills-kit/alexa-aws-credits
 - Linkear tu skill con Amazon https://developer.amazon.com/blogs/post/Tx3CX1ETRZZ2NPC/Alexa-Account-Linking-5-Steps-to-Seamlessly-Link-Your-Alexa-Skill-with-Login-wit
 
